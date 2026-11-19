@@ -1,0 +1,5 @@
+初始化完成：t=2100s，阶段=interruption，列车数=149
+观测中断： DisruptionObservation(from_station=20, to_station=21, direction=0, start_time=2100, predicted_end=3000, blocked_now=True)
+第1轮：t=2400s，等待人秒=326356，站台人数=660，车内人数=12892，守恒差=0
+第2轮：t=2700s，等待人秒=364452，站台人数=481，车内人数=14098，守恒差=0
+第3轮：t=3000s，等待人秒=423098，站台人数=810，车内人数=15630，守恒差=0
