@@ -1,0 +1,40 @@
+{
+  "mode": "alns",
+  "rounds": 5,
+  "scenario_truth_for_audit_only": {
+    "from_station": 20,
+    "to_station": 21,
+    "direction": 0,
+    "start_time": 2100,
+    "actual_duration": 1200,
+    "predicted_duration": 900
+  },
+  "objective": "预测评价时域内五目标归一化加权最小化（合成分数，非人秒）",
+  "objective_weights": {
+    "passenger_waiting": 0.2,
+    "passenger_delay_proxy": 0.2,
+    "platform_crowding": 0.2,
+    "train_schedule_adjustment": 0.2,
+    "unfinished_trips": 0.2
+  },
+  "search_profile": "enhanced",
+  "evaluation_mode": "robust_forecast_scenarios",
+  "risk_aversion": 0.35,
+  "cvar_alpha": 0.8,
+  "passenger_delay_metric_note": "车内停站超计划发车及区间排队超计划到站人秒，仅为OD到达延误代理",
+  "schedule_adjustment_metric_note": "新增到发晚点、待发晚点变化、折返取消及新增服务时长的列车秒合计",
+  "evaluation_horizon_seconds": 1200,
+  "decision_interval_seconds": 300,
+  "iterations_per_decision": 30,
+  "max_evaluations_per_decision": null,
+  "total_unique_evaluations": 175,
+  "seed": 42,
+  "actual_wait_pax_sec_since_disruption": 2026307.0,
+  "actual_end_waiting_pax": 1376.0,
+  "actual_turnbacks_started": 0,
+  "rounds_with_feasible_turnback_candidate": 4,
+  "search_seconds": 235.43148010002915,
+  "final_time": 3600,
+  "conservation_gap": 0.0,
+  "result_directory": "D:\\MetroReasoning\\Result\\alns_v1\\run_20261121_160641_364627\\alns"
+}
