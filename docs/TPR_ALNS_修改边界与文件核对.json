@@ -1,0 +1,30 @@
+{
+  "project": "MetroReasoning",
+  "base_zip": "MetroReasoning_5_FiveObjectives_MinimalChange.zip",
+  "modified": [
+    "MetroReasoning/README.md",
+    "MetroReasoning/run_alns.py",
+    "MetroReasoning/Env/ALNS.py",
+    "MetroReasoning/Env/Evaluator.py",
+    "MetroReasoning/Env/ResultRecorder.py"
+  ],
+  "added": [
+    "MetroReasoning/tests/test_tpr_alns.py",
+    "MetroReasoning/docs/TPR_ALNS_三项增强设计与验收.md",
+    "MetroReasoning/docs/TPR_ALNS_运行验收摘要.md",
+    "MetroReasoning/docs/TPR_ALNS_回归测试日志.txt",
+    "MetroReasoning/docs/TPR_ALNS_修改边界与文件核对.json"
+  ],
+  "unchanged_base_zip_entries": 633,
+  "original_physical_files_byte_identical": {
+    "Constant.py": true,
+    "configure.py": true,
+    "Env.py": true,
+    "TrainOperator.py": true,
+    "PassengerOperator.py": true
+  },
+  "original_dataset_eight_files_preserved": true,
+  "regression_tests": "49/49 passed",
+  "smoke_test": "Rule LNS ALNS: 1 window, 2 iterations; actual_wait_pax_sec=358934 each; no demonstrated performance gain",
+  "limitations": "physical P0 historical issues not modified; robust scenario assumptions not validated"
+}

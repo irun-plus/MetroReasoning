@@ -1,0 +1,25 @@
+SOURCE: MetroReasoning(5).zip
+CHANGED CONTENT: Env/Env.py, Env/Evaluator.py, Env/ResultRecorder.py, run_alns.py, README.md
+NEW: tests/test_five_objectives.py, docs/V1_五目标评价设计与修改清单.md, docs/ALNS后续创新设计_仅说明不改现有算法.md
+UNMODIFIED: all other original ZIP entries (including ALNS, Configure, Constant, TrainOperator, PassengerOperator, original tests, Legacy, Result).
+DATA FIX: eight original DataBase - 副本/beijing_5 files are copied byte-for-byte into the formerly empty DataBase/beijing_5.
+RAW DATA SOURCE COPY COUNT: 8
+TESTS: 41/41 pass; CLI smoke Rule/LNS/ALNS (1 round, 3 iterations) pass.
+NOTE: passenger_delay_proxy is onboard late dwell proxy, NOT full OD arrival delay.
+
+Modified original entries SHA256 (old => new):
+MetroReasoning/Env/Env.py 82fe9d8ca5a1f2fa4d7fe3166b7f6bc307b19bd405a261fe2969d6b14c8437ca => 599b080c4d20ff5cfaa006bccd9b69bf803c04cbd7d3e7c79efc9cb9fdf0d2d8
+MetroReasoning/Env/Evaluator.py 3aa45f9a4933af71973f9e01209b446ef58e7d539477308b5119b2117765516e => 9ad80ac5a2a8edc43b4674a9b9bde9391f5438d25862ebed02712a47c798583c
+MetroReasoning/Env/ResultRecorder.py ac62e073898d761ff2c78c4397b61615ef3039ae9143cc2aa46b091d62839466 => 0b308191f42e1aab73c79fbef0e163c533c54ef97b19883bdc9e446b9696b932
+MetroReasoning/run_alns.py fac9505cee551730b0a16821de388a721404bb0cda29e08c7a9a0436b30f0d7b => bd2e3b13e47a03a34ddd225a4d8ad28608638bedc4e27c316f0d004962d33b56
+MetroReasoning/README.md 3833602791afc6ce21ef59245326b88c2f5f5547783914be319c9a042d712de9 => 1ef074a316c238499e5a46c727761e6167fdba09f83627b942bab829e58646c1
+
+Added byte-identical data files (SHA256):
+MetroReasoning/DataBase/beijing_5/down_flow_list.npy cc99a623a40cf8e0053e12febb01026aeb2fb1ea631e35c4fffae834bcfd8138
+MetroReasoning/DataBase/beijing_5/od_matrices_down.npy f6d2970fc565d8bd32a34dd73b47562fc260c8674e374fa0d176f5184b7628cb
+MetroReasoning/DataBase/beijing_5/od_matrices_up.npy 24a49481ddefc1731872f963b0b16256114bed1f11e0c89b4c8757677f1f0f4f
+MetroReasoning/DataBase/beijing_5/train_schedule.npy c86a93c292a0eada66b9fefc057895e3d0dae7a43005368239e6acd54495ef8c
+MetroReasoning/DataBase/beijing_5/up_flow_list.npy 23823355c75fdb043953457146c953fff81cb4c8f47c14ad402b01ab303e5276
+MetroReasoning/DataBase/beijing_5/上行数据（五点到七点）.csv 00dc0849cefb0bb163c6ad4cdbb9ff0f06e18bedc0f31a99db4aaa35c29d0423
+MetroReasoning/DataBase/beijing_5/下行数据（五点到七点）.csv 0e1517678ed854d5adb60a01cae2a194992a946cd9bbbff36e46fc9e8a39131a
+MetroReasoning/DataBase/beijing_5/列车计划图（五点到七点）.csv c2977375df5d90c84803007a18a7f574d1e2e7369bf5afc618cc410f4cacf159

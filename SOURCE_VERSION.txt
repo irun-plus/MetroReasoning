@@ -1,0 +1,6 @@
+Base project: user-uploaded MetroReasoning(4).zip
+Source archive SHA256: calculated separately in package manifest
+Build: MetroReasoning_V1 physical environment only
+ALNS: not integrated; original ALNS source archived under Legacy/Env
+DataBase: file contents copied without modification; CSV and NPY files moved to DataBase/beijing_5
+Result: original historical result directory retained

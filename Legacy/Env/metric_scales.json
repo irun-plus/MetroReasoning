@@ -1,0 +1,238 @@
+{
+  "method": "measured_positive_p75_with_stress_fallback",
+  "scenarios": 27,
+  "note": "0.5 和 4.0 倍客流是合成压力试验，不是实测平峰或超高峰",
+  "cases": [
+    {
+      "from_station": 6,
+      "start": 2256,
+      "duration": 300,
+      "demand_factor": 0.5,
+      "tried": 8,
+      "feasible": 8
+    },
+    {
+      "from_station": 6,
+      "start": 2256,
+      "duration": 300,
+      "demand_factor": 1.0,
+      "tried": 8,
+      "feasible": 8
+    },
+    {
+      "from_station": 6,
+      "start": 2256,
+      "duration": 300,
+      "demand_factor": 4.0,
+      "tried": 8,
+      "feasible": 8
+    },
+    {
+      "from_station": 6,
+      "start": 2256,
+      "duration": 900,
+      "demand_factor": 0.5,
+      "tried": 8,
+      "feasible": 8
+    },
+    {
+      "from_station": 6,
+      "start": 2256,
+      "duration": 900,
+      "demand_factor": 1.0,
+      "tried": 8,
+      "feasible": 8
+    },
+    {
+      "from_station": 6,
+      "start": 2256,
+      "duration": 900,
+      "demand_factor": 4.0,
+      "tried": 8,
+      "feasible": 8
+    },
+    {
+      "from_station": 6,
+      "start": 2256,
+      "duration": 1800,
+      "demand_factor": 0.5,
+      "tried": 8,
+      "feasible": 8
+    },
+    {
+      "from_station": 6,
+      "start": 2256,
+      "duration": 1800,
+      "demand_factor": 1.0,
+      "tried": 8,
+      "feasible": 8
+    },
+    {
+      "from_station": 6,
+      "start": 2256,
+      "duration": 1800,
+      "demand_factor": 4.0,
+      "tried": 8,
+      "feasible": 8
+    },
+    {
+      "from_station": 12,
+      "start": 2100,
+      "duration": 300,
+      "demand_factor": 0.5,
+      "tried": 10,
+      "feasible": 10
+    },
+    {
+      "from_station": 12,
+      "start": 2100,
+      "duration": 300,
+      "demand_factor": 1.0,
+      "tried": 10,
+      "feasible": 10
+    },
+    {
+      "from_station": 12,
+      "start": 2100,
+      "duration": 300,
+      "demand_factor": 4.0,
+      "tried": 10,
+      "feasible": 10
+    },
+    {
+      "from_station": 12,
+      "start": 2100,
+      "duration": 900,
+      "demand_factor": 0.5,
+      "tried": 10,
+      "feasible": 10
+    },
+    {
+      "from_station": 12,
+      "start": 2100,
+      "duration": 900,
+      "demand_factor": 1.0,
+      "tried": 10,
+      "feasible": 10
+    },
+    {
+      "from_station": 12,
+      "start": 2100,
+      "duration": 900,
+      "demand_factor": 4.0,
+      "tried": 10,
+      "feasible": 10
+    },
+    {
+      "from_station": 12,
+      "start": 2100,
+      "duration": 1800,
+      "demand_factor": 0.5,
+      "tried": 10,
+      "feasible": 10
+    },
+    {
+      "from_station": 12,
+      "start": 2100,
+      "duration": 1800,
+      "demand_factor": 1.0,
+      "tried": 10,
+      "feasible": 10
+    },
+    {
+      "from_station": 12,
+      "start": 2100,
+      "duration": 1800,
+      "demand_factor": 4.0,
+      "tried": 10,
+      "feasible": 10
+    },
+    {
+      "from_station": 20,
+      "start": 2100,
+      "duration": 300,
+      "demand_factor": 0.5,
+      "tried": 14,
+      "feasible": 14
+    },
+    {
+      "from_station": 20,
+      "start": 2100,
+      "duration": 300,
+      "demand_factor": 1.0,
+      "tried": 14,
+      "feasible": 14
+    },
+    {
+      "from_station": 20,
+      "start": 2100,
+      "duration": 300,
+      "demand_factor": 4.0,
+      "tried": 14,
+      "feasible": 14
+    },
+    {
+      "from_station": 20,
+      "start": 2100,
+      "duration": 900,
+      "demand_factor": 0.5,
+      "tried": 14,
+      "feasible": 14
+    },
+    {
+      "from_station": 20,
+      "start": 2100,
+      "duration": 900,
+      "demand_factor": 1.0,
+      "tried": 14,
+      "feasible": 14
+    },
+    {
+      "from_station": 20,
+      "start": 2100,
+      "duration": 900,
+      "demand_factor": 4.0,
+      "tried": 14,
+      "feasible": 14
+    },
+    {
+      "from_station": 20,
+      "start": 2100,
+      "duration": 1800,
+      "demand_factor": 0.5,
+      "tried": 14,
+      "feasible": 14
+    },
+    {
+      "from_station": 20,
+      "start": 2100,
+      "duration": 1800,
+      "demand_factor": 1.0,
+      "tried": 14,
+      "feasible": 14
+    },
+    {
+      "from_station": 20,
+      "start": 2100,
+      "duration": 1800,
+      "demand_factor": 4.0,
+      "tried": 14,
+      "feasible": 14
+    }
+  ],
+  "feasible_candidates": 288,
+  "scale_sources": {
+    "wait_pax_sec": "measured_peak",
+    "end_waiting_pax": "measured_peak",
+    "remaining_delay_sec": "measured_peak",
+    "crowd_excess_pax_sec": "synthetic_stress",
+    "change_cost": "measured_peak"
+  },
+  "scales": {
+    "wait_pax_sec": 1987479.0,
+    "end_waiting_pax": 2514.0,
+    "remaining_delay_sec": 41362.25,
+    "crowd_excess_pax_sec": 1301247.0,
+    "change_cost": 33.0
+  }
+}
